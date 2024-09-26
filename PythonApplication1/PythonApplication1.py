@@ -1,6 +1,8 @@
 # Pythonでは優先度付きキューがライブラリとして実装されている
+
 import heapq
-scores = [12, 46, 33, 27, 73, 88, 55, 45, 68, 63, 77, 15, 99]
+
+scores = [12, 46, 33, 27, 73, 88, 55, 45, 68, 63, 77, 15, 99] # 得点のリスト
 print(heapq.nlargest(3, scores)) # 高得点上位３組を出力
 print(heapq.nsmallest(5, scores)) # 得点が低い下位5組を出力
 print(scores) # 元のリストはそのまま
